@@ -1,0 +1,16 @@
+html, body {margin: 0; border: 0;}
+ul {padding: 0;}
+li {list-style: none;}
+input:focus {outline: none;}
+
+#input_container, #list_container {width: 400px; margin: 20px calc(50% - 200px);}
+#input_container::after {content: ''; clear: both; display: block;}
+#input_container input {float: left; border: 0; padding: 0; font-weight: bold;}
+#item {width: 297px; height: 18px; background-color: rgb(153, 225, 201); padding-left: 3px !important;}
+#add {width: 100px; height: 18px; cursor: pointer;}
+#add:hover {background-color: rgb(92, 89, 89); color: white;}
+
+#list_body {cursor: pointer;}
+#list_body li {margin: 5px 0;}
+#list_body li:nth-child(even):hover {background-color: rgb(154, 205, 50);}
+#list_body li:nth-child(odd):hover {background-color: rgb(205, 187, 50);}
