@@ -1,4 +1,4 @@
-<img src="./resources/ima/SHELL.png" width="189" height="80"></img>
+<img src="./resources/img/SHELL.png" width="189" height="80"></img>
 
 # APP_JS
 HTML Project 
