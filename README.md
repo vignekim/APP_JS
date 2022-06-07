@@ -4,7 +4,7 @@
 HTML Project 
 ### 참조 자료 링크
 > * [w3schools](https://www.w3schools.com/)
-> * [Visual Studio Code]([https://www.eclipse.org/](https://code.visualstudio.com/)
+> * [Visual Studio Code](https://code.visualstudio.com/)
 
 ### 싸이트 링크
 > * [APP_JS](https://vignekim.github.io/APP_JS/)
