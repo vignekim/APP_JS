@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&family=Nanum+Pen+Script&display=swap');
+
+html, body {margin: 0; border: 0;}
+section {height: 50vh; position: relative;}
+p {margin: 0;}
+
+.size {height: calc((25vh - 100px) * 2 );}
+.position-left {position: absolute; right: 50vw; top: 100px;}
+.position-right {position: absolute; left: 50vw; top: 100px;}
+
+.background_black {background-color: black;}
+.background_beige {background-color: #fffdf4;}
+
+.font {font-size: 1.7em; width: 220px; font-weight: bold;}
+.font_white {color: white;}
+.font_red {color: red;}
+.font_center {text-align: center;}
+.font_right {text-align: right;}
+.font_style1 {font-family: 'Blaka', cursive;}
+.font_style2 {font-family: 'Nanum Pen Script', cursive;}
+.font a {text-decoration: none;}
+
+.ani_left {animation: slide_left_in 2s ease-out;}
+.ani_left_out {animation: slide_left_out 0s forwards;}
+.ani_right {animation: slide_right_in 2s ease-out;}
+
+@keyframes slide_left_in {
+    from{right: 75vw; opacity: 0;}
+    to {right: 50vw; opacity: 1;}
+}
+
+@keyframes slide_left_out {
+    from{right: 50vw; opacity: 1;}
+    to {right: 75vw; opacity: 0;}
+}
+
+@keyframes slide_right_in {
+    from{left: 75vw; opacity: 0;}
+    to {left: 50vw; opacity: 1;}
+}
+
+@keyframes slide_right_out {
+    from{left: 50vw; opacity: 1;}
+    to {left: 75vw; opacity: 0;}
+}

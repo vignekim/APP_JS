@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&family=Nanum+Pen+Script&display=swap');
+
 html, body {margin: 0; border: 0;}
 ul {padding: 0;}
 li {list-style: none;}
 input:focus {outline: none;}
+a {text-decoration: none;}
+
+nav {text-align: center; background-color: brown;}
+nav ul {margin: 0; display: inline-block;}
+nav ul li {display: inline-block;}
+nav ul li a {display: block; padding: 10px 20px; font-family: 'Nanum Pen Script', cursive; font-size: 2em; font-weight: bold; color: black; min-width: 90px;}
+nav ul li a:hover {background-color: rgb(184, 143, 188); color: rgb(230, 218, 106);}
 
 #input_container, #list_container {width: 400px; margin: 20px calc(50% - 200px);}
 #input_container::after {content: ''; clear: both; display: block;}
