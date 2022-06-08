@@ -26,7 +26,7 @@ $(() => {
     $(window).scroll(function(){
         let value = $(window).scrollTop();
         e1(value, 0, 100, true);
-        e1(value, 2, 210, false);
+        e1(value, 2, 220, false);
     });
 /*
     window.addEventListener("scroll", () => {
